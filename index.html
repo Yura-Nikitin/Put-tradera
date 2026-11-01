@@ -505,7 +505,7 @@ function chapterEnd(){
   $('stats').innerHTML = LEVELS.map(l=>{ const p=progress[l.n]||0; const m=p>=80?'<span class="g">✓</span>':p>=50?'<span class="y">~</span>':'<span class="r">✕</span>';
     return '<li><span class="n">'+l.n+'</span><span>'+m+' '+esc(l.title)+'</span><span class="p">'+p+'%</span></li>'; }).join('');
   $('pitch').textContent = pitch;
-  window._share = 'Прошёл главу 1 «Диагностика» в игре «Путь трейдера»: '+acc+'% точности — '+$('arch').textContent+'. Проверь себя: https://t.me/yura_treiyding';
+  window._share = 'Прошёл главу 1 «Диагностика» в игре «Путь трейдера»: '+acc+'% точности — '+$('arch').textContent+'. Проверь себя: https://t.me/Matreschkabot/puttradera';
 }
 
 /* ================= CHART ENGINE (урок 4) ================= */
